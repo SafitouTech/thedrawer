@@ -24,6 +24,14 @@ import 'nav_bar.dart';
            centerTitle: true,
          ),
          drawer: NavBar(),
+         body: Center(
+           child: Text('  Bienvenue dans le cour de Git Github 💻',
+             style: TextStyle(
+               color: Colors.redAccent,
+               fontSize: 40,
+               fontWeight: FontWeight.bold,
+             ),),
+         ),
        ),
      );
    }
